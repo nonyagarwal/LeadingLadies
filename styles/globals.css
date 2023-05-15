@@ -1,16 +1,11 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+html{
+  scroll-behavior: smooth;
+  font-family: "Ubuntu", sans-serif;
 }
-
-* {
-  box-sizing: border-box;
+.custom-img{
+  background-image: url("http://newsmobile.in/wp-content/uploads/2018/07/h.jpg");
 }
